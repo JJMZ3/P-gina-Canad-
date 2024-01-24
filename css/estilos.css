@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    background-color: #0074C8;
+}
+
+#contenedor{
+    margin: 70px 250px 0px 300px;
+
+}
+
+#contenido1{
+    width: 65%;
+    height: 800px;
+    padding: 40px 0px;
+   
+    float: left;
+    
+}
+
+.logo{
+    width: 120px;
+    margin-bottom: 40px;
+}
+
+.texto{
+    font-size: 55px;
+    color: white;
+    font-weight:500;
+}
+
+#contenido2{
+    width: 33%;
+    align-items: center;
+    float: right;
+   
+}
+
+#formulario{
+    background-color: white;
+    width: 100%;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 10px;
+    padding: 60px 40px 30px;
+}
+
+.bienvenida{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+hr{
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.campo{
+    width: 100%;
+    font-size: 18px;
+    
+}
+
+.info{
+    width: 100%;
+    height: 35px;
+    margin-top : 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 3px;
+    
+}
+
+
+button{
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #10dd4e;
+    color: white;
+    border-width: 0;
+    margin-bottom: 20px;
+}
+
+.enlace{
+    text-decoration:none;
+}
+
+a{
+    color:black;
+    font-size: 13px;
+}
+p{
+    margin-top: 15px;
+    font-size: 10px;
+    
+}
+
+.canadaemoji{
+
+    width: 15%;
+    margin-left: 50px;
+    margin-bottom: -25px;
+}
+
+#phone{
+    height: 30px;
+    width: 100%;
+}

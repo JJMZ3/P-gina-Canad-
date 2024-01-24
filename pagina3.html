@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página3</title>
+    <link rel="stylesheet" href="css/estilos3.css">
+</head>
+<body>
+<div id="caja">
+    <div id="bienvenida" style="background-image: url(img/bienvenida.jpg); background-repeat: no-repeat; background-size: 100%;">
+        <center>
+            <img src="img/logo.png">
+            <img src="img/barra.png">
+
+        </center>
+    </div>
+
+    <div id="contenedor">
+        <div id="contenido1">
+            <p class="p1-contenedor">PASO 2 DE 4</p>
+        <h2>Cuéntanos sobre tu educación</h2>
+        <p class="p2-contenedor">Tu respuesta nos ayudará a evaluar los requisitos de tu visa canadiense.</p>
+        <hr>
+        </div>
+
+        <div id="contenido2">
+            <form class="formulario">
+                <label class="campo">TE HAS GRADUADO DE LA ESCUELA SECUNDARIA (ESCUELA DE ENSEÑANZA MEDIA)</label><br>
+                <input id="graduación_si" type="radio" class="input1" name="GRADUADO" value="Si">
+                <label class="radio" >Sí</label>
+                <input id="graduación_no" type="radio" class="input1" name="GRADUADO" value="No">
+                <label class="radio" >No</label><br>
+                <label class="campo">¿HAS TENIDO ALGUNA OTRA EDUCACIÓN FORMAL?</label><br>
+                <input id="otra_educación_si" type="radio" class="input1" name="OTRA_EDUCACION" value="Sí">
+                <label class="radio" >Sí</label>
+                <input id="otra_educación_no" type="radio" class="input1" name="OTRA_EDUCACION" value="No">
+                <label class="radio" >No</label>
+            </form>
+        </div>
+
+        <div id="contenido3">
+            
+            <form class="formulario">
+                <label class="campo">¿QUÉ TAN BUENO ES TU NIVEL DE INGLÉS?</label><br>
+                <input type="range" min="0" max="100" step="25" value="0" id="Nivel_de_ingles" class="input2" >
+                <br>
+                <label class="label">Pobre</label>
+                <label class="label">Báscico</label>
+                <label class="label">Moderado</label>
+                <label class="label">Experto</label>
+
+                
+            </form>
+        
+            <br>
+                <form id="formulario">
+                <label class="campo1">¿QUÉ TAN BUENO ES TU FRANCÉS?</label><br>
+                <input id="Nivel_de_francés" type="range" min="0" max="100" step="25" value="0" class="input0" name="Nivel_de_ingles" >
+                <br><label class="label1">Pobre</label>
+                <label class="label1">Báscico</label>
+                <label class="label1">Moderado</label>
+                <label class="label1">Experto</label>
+
+                <button class="boton1">
+                <a class="enlace1" href="pagina2.html">VOLVER</a>
+                </button>
+                <button onclick="almacenar()" class="boton2">
+                    <a class="enlace2" href="pagina4.html">SIGUIENTE</a>
+                    </button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+    <script src="js/pagina3.js"></script>
+</body>
+</html>

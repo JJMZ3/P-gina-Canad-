@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#usuario{
+    margin-top: 150px;
+}
+
+.campo{
+    width: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    padding-right: 315px;
+    color: gray;
+}
+br{
+    padding-top: 40px;
+}
+.usuario1{
+    width: 400px;
+    border-color: black;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    height: 30px;
+    padding-top: 30px;
+    padding-bottom:30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+    
+}
+button{
+    margin-top: 40px;
+    background-color:#db0a1f;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    width: 100px;
+    height: 35px;
+    margin-right: 290px;
+    box-shadow: 2px, 2px,2px,2px;
+    box-shadow: rgb(9, 9, 9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 150;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página2</title>
+    <link rel="stylesheet" href="css/estilos2.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+</head>
+<body>
+<div id="caja">
+    <div id="bienvenida" style="background-image: url(img/bienvenida.jpg); background-repeat: no-repeat; background-size: 100%;">
+    
+    
+        <div class="chequeo">
+                
+                
+            <center>
+                <img src="img/logo.png">
+                <h1>Tu viaje comienza aquí</h1>
+                <p>Rellena el rápido cuestionario para iniciar tu viaje a Canadá</p>
+                <center></center>
+    
+        
+</div>
+</div>
+        </center>
+    </center>
+    </div>
+
+
+    <div id="contenedor">
+        <div id="contenido1">
+            <p class="p1-contenedor">PASO 1 DE 4</p>
+        <h2>Cuéntanos un poco sobre ti.</h2>
+        <p class="p2-contenedor">Tu respuesta nos ayudará a evaluar los requisitos de tu visa canadiense.</p>
+        <hr>
+        </div>
+
+        <div id="contenido2">
+            <form class="formulario">
+                <label class="campo">GÉNERO</label>
+                <select id="genero" type="text" class="info" required>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                </select>
+                <label class="campo">TIPO DE APLICACIÓN</label>
+                <select id="tipo_aplicación" type="text" class="info" required>
+                    <option value="Solo">Solo</option>
+                    <option value="Familiar">Familiar</option>
+                </select>
+                <label class="campo">NACIONALIDAD DEL SOLICITANTE</label>
+                <select id="nacionalidad" type="text" class="info" required>
+                    <option value="Colombiano">Colombiano</option>
+                    <option value="Argentino">Argentino</option>
+                    <option value="Peruano">Peruano</option>
+                    <option value="Mexicano">Mexicano</option>
+                    <option value="Venezolano">Venezolano</option>
+                </select>
+            </form>
+        </div>
+
+        <div id="contenido3">
+            <form class="formulario">
+                <label class="campo">¿CUÁNDO NACISTE?</label><br>
+                <input id="dia_nacimiento" type="number" class="info3" min="1" max="31">
+                <input id="mes_de_nacimiento" type="number" class="info3" min="1" max="12">
+                <input id="año_nacimiento" type="number" class="info3" min="1900" max="2022"><br>
+                <label class="campo">¿ESTÁS CASADO?</label><br><br>
+                <input id="casado_si" type="radio" name="casado" value="Sí">
+                <label class="radio">Sí</label>
+                <input id="casado_no" type="radio" name="casado" value="No">
+                <label class="radio">No</label><br>
+                
+                
+                
+                
+                <br>
+                <button onclick="almacenar()">
+                    <a class="enlace" href="pagina3.html">SIGUIENTE</a>
+                </button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="js/pagina2.js"></script>
+
+    
+
+
+</body>
+</html>
